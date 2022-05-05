@@ -1,0 +1,110 @@
+.contact_header{
+  position: relative;
+  height: 700px;
+  background-color:#014E56;
+}
+.contact_header>img{
+  width: 90px;
+  position: absolute;
+  left: 0;
+  top: 155px;
+}
+.contact_header > img:nth-child(4){
+  width: 70px;
+  position: absolute;
+  top: 542px;
+  left: 1070px;
+}
+.contact__box{
+  position: relative;
+  top: 100px;
+  left: 142px;
+}
+
+.contact-title{
+  margin-bottom: 40px;
+}
+.contact-title h2{
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 100px;
+  color: #FFFFFF; 
+}
+.contact-title h3{
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E; 
+}
+.c-item_img{
+  padding-top: 10px;
+}
+.c-item_title{
+  padding-left: 23px;
+  padding-top: 20px;
+}
+.c-item_title p{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  color: #FFFFFF; 
+}
+.contact-sending{
+  position: absolute;
+  left: 650px;
+  top: 180px;
+}
+.c-s_item{
+  padding-bottom: 35px;
+}
+.c-s_itemm input[type="text"]{
+  padding-bottom: 45px;
+}
+.btn-box{
+  position: absolute;
+  top: 380px;
+}
+input{
+  padding-bottom: 12px;
+  width: 350px;
+  background-color: #014E56;
+  border:none;
+  border-bottom: 1px solid #ffffff;
+}
+input:focus{
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #F67E7E;
+  transition: .2s all linear;
+}
+input::placeholder{
+  padding-left: 13px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+ }
+ button{
+   padding: 10px 33px;
+   border: none;
+   border-radius: 24px;
+ }
+ button{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #004047;
+  cursor: pointer;
+  transition: 0.1s all linear;
+  outline: none;
+}
+button:hover{
+  border: 2px solid #078b9c;
+  background-color: #004047;
+  color: #FFFFFF;
+  outline: none;
+}
